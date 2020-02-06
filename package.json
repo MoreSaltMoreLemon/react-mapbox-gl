@@ -1,5 +1,5 @@
 {
-  "name": "react-mapbox-gl",
+  "name": "@packageroute/react-mapbox-gl",
   "version": "4.8.2",
   "description": "A React binding of mapbox-gl-js",
   "main": "lib/index.js",
@@ -105,5 +105,10 @@
     "tslint": "5.7.0",
     "tslint-react": "3.2.0",
     "typescript": "3.1.6"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "lib": "lib"
   }
 }

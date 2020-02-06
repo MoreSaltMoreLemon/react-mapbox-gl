@@ -54,7 +54,6 @@ class Image extends React.Component<Props> {
     const { map, id, url, data, options, onError } = props;
 
     if (data) {
-      // map.addImage(id, data, options);
       this.addOrUpdateImage(map, id, data, options);
       this.loaded();
     } else if (url) {
@@ -67,7 +66,6 @@ class Image extends React.Component<Props> {
           return;
         }
         this.addOrUpdateImage(map, id, image, options);
-        // map.addImage(id, image, options);
         this.loaded();
       });
     }
