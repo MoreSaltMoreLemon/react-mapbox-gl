@@ -47,7 +47,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alex3165/react-mapbox-gl.git"
+    "url": "git+https://github.com/PackageRoute/react-mapbox-gl.git"
   },
   "keywords": [
     "mapbox",
